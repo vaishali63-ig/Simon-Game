@@ -1,0 +1,47 @@
+.container{
+    text-align: center;
+    padding: 0 5%;
+}
+.btn{
+    height: 150px;
+    width: 150px;
+    border-radius: 20%;
+    border: 5px solid black;
+    margin: 2.5rex;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
+.red{
+    background-color: rgb(242, 47, 25);
+}
+.yellow{
+    background-color: rgb(230, 250, 10);
+}
+.purple{
+    background-color: rgb(209, 8, 244);
+}
+.green{
+    background-color: rgb(145, 233, 21);
+}
+.flesh{
+    background-color: rgb(14, 13, 13);
+}
+.userflesh{
+    background-color: white !important;
+    color: black !important;
+}
+.overflesh{
+    background-color: rgb(253, 85, 55);
+}
+#start-btn{
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 0.8rem 1.5rem;
+    background-color: black;
+    color: white;
+    margin: 1rem;
+    border-radius: 1rem;
+}
