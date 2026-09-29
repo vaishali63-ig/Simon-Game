@@ -10,6 +10,7 @@ let colours=["red","green","yellow","purple"]
 let h2=document.querySelector("h2");
 
 let btns =document.querySelectorAll(".btn");
+let start_btn=document.getElementById("start-btn");
 
 
 function resetgame(){
@@ -80,8 +81,6 @@ for(btn of btns){
     );
    
 }
-
-let start_btn=document.getElementById("start-btn");
 start_btn.addEventListener("click",function(){
     console.log("started");
     if(started==false){
