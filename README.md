@@ -1,10 +1,38 @@
-# Simon-Game
-A mind-sharpening game
+# Simon Game
 
-Steps to play the game
+A simple Simon Game built using **HTML, CSS, and JavaScript**.
 
-1. press start button to start the game
-2. one block will blink than its your turn to click the same block.
-3. than again next random block will blink
-4. now you need to press the blocks in the same sqquance followed by the current and repeate.
-5. With each step, your level increases — the higher your level, the sharper your mind becomes.
+The goal is to remember and repeat the sequence of colors shown by the game. The sequence gets longer with each level, making it harder as you progress.
+
+## Tech Used
+
+* HTML
+* CSS
+* JavaScript
+
+## How to Play
+
+1. Click **Start** to begin.
+2. Watch the sequence carefully.
+3. Click the buttons in the same order.
+4. The sequence gets longer after every successful round.
+5. Make a mistake and the game is over.
+
+## Run Locally
+
+Clone the repository and open `index.html` in your browser.
+
+```bash
+git clone https://github.com/vaishali63-ig/Simon-Game.git
+cd Simon-Game
+```
+
+Then open `index.html`.
+
+## Live Demo
+
+[Play Simon Game](https://vaishali63-ig.github.io/Simon-Game/)
+
+---
+
+Made with HTML, CSS and JavaScript.
